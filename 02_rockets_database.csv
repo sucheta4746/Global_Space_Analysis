@@ -1,0 +1,24 @@
+rocket_id,rocket_name,family,country,operator,first_flight,last_flight,total_launches,successes,failures,payload_leo_kg,payload_geo_kg,payload_moon_kg,height_m,diameter_m,mass_tons,stages,reusable,cost_per_launch_m,status,propellant,ai_guidance,notes
+R001,Saturn V,Saturn,United States,NASA,1967,1973,13,13,0,130000,48600,50000,111,10.1,2970.0,3,0,185.0,Retired,RP-1/LOX + LH2/LOX,0,Most powerful rocket ever flown; Apollo missions
+R002,Falcon 9 Block 5,Falcon,United States,SpaceX,2018,9999,280,277,2,22800,8300,0,70,3.7,549.0,2,1,67.0,Active,RP-1/LOX,1,Most launched orbital rocket; booster reused 20+ times
+R003,Falcon Heavy,Falcon,United States,SpaceX,2018,9999,11,10,1,63800,26700,16800,70,12.2,1421.0,2,1,97.0,Active,RP-1/LOX,1,Current most powerful operational rocket; side booster reuse
+R004,Starship (IFT),Starship,United States,SpaceX,2023,9999,6,3,3,150000,21000,100000,121,9.0,5000.0,2,1,10.0,In Development,CH4/LOX,1,Fully reusable; catch by chopstick arms; target $10M/launch
+R005,Atlas V,Atlas,United States,ULA,2002,2024,99,99,0,18850,8900,0,62,3.8,334.0,2,0,170.0,Retiring,RP-1/LOX + LH2/LOX,0,100% success rate; no failures in 99 launches
+R006,Delta IV Heavy,Delta,United States,ULA,2004,2024,16,15,1,28790,14220,0,72,5.0,733.0,3,0,400.0,Retired,LH2/LOX,0,Most expensive US rocket; used for NRO payloads
+R007,Space Shuttle,STS,United States,NASA,1981,2011,135,133,2,24400,0,0,56,8.7,2030.0,1,1,500.0,Retired,LH2/LOX + HTPB,0,"Challenger 1986, Columbia 2003 disasters"
+R008,New Glenn,New Glenn,United States,Blue Origin,2025,9999,3,2,1,45000,13000,0,98,7.0,1000.0,2,1,60.0,Active,LH2/LOX + LNG/LOX,1,First launch Jan 2025; reusable first stage
+R009,SLS Block 1,SLS,United States,NASA,2022,9999,1,1,0,95000,0,27000,98,8.4,2608.0,2,0,4100.0,Active,LH2/LOX + HTPB,1,Artemis rocket; most expensive per launch ever
+R010,Soyuz-2.1a,Soyuz,Russia,Roscosmos,2004,9999,95,93,2,7020,0,0,46,2.95,311.0,3,0,35.0,Active,RP-1/LOX,0,Workhorse of Russian fleet; ISS crew transport
+R011,Proton-M,Proton,Russia,Roscosmos,2001,9999,105,97,8,23000,6300,0,58,7.4,705.0,3,0,65.0,Active,N2O4/UDMH,0,Heavy lift; uses toxic hypergolic fuels
+R012,Long March 5,Long March,China,CASC,2016,9999,10,9,1,25000,14000,8200,57,5.0,869.0,2,0,90.0,Active,LH2/LOX + RP-1/LOX,1,China's heavy lifter; Tianwen-1 Mars mission
+R013,Long March 2F,Long March,China,CASC,1992,9999,20,20,0,8400,0,0,62,3.35,480.0,2,0,70.0,Active,N2O4/UDMH,0,Only Chinese crewed launch vehicle; Shenzhou missions
+R014,Ariane 5 ECA,Ariane,Europe,Arianespace,2002,2023,82,81,1,21000,10865,0,53,5.4,780.0,2,0,185.0,Retired,LH2/LOX + HTPB,0,Launched JWST; retired 2023 after 82 flights
+R015,Ariane 6,Ariane,Europe,Arianespace,2024,9999,3,2,1,21650,11500,0,63,5.4,860.0,2,0,115.0,Active,LH2/LOX + HTPB,1,Ariane 5 successor; first flight July 2024
+R016,PSLV-XL,PSLV,India,ISRO,2008,9999,26,25,1,3800,1425,0,44,2.8,320.0,4,0,15.0,Active,HTPB + N2O4/UDMH + LH2/LOX,0,India's most reliable rocket; Chandrayaan missions
+R017,LVM3 M,GSLV MkIII,India,ISRO,2017,9999,7,7,0,10000,4000,0,43,4.0,640.0,3,0,35.0,Active,HTPB + N2O4/UDMH + LH2/LOX,1,Chandrayaan-3 launch vehicle; 100% success
+R018,H-IIA,H-II,Japan,JAXA/MHI,2001,2024,48,47,1,10000,4100,0,53,4.0,285.0,2,0,90.0,Retired,LH2/LOX + HTPB,0,48 launches; retired after SLIM mission 2024
+R019,H3,H-III,Japan,JAXA/MHI,2024,9999,2,2,0,16500,6500,0,63,5.2,574.0,2,0,50.0,Active,LH2/LOX + HTPB,1,H-IIA successor; first success March 2024
+R020,Electron,Electron,New Zealand,Rocket Lab,2017,9999,52,48,4,300,0,0,18,1.2,12.5,2,1,7.5,Active,RP-1/LOX,1,Small sat specialist; partially reusable (1st stage helicopter catch)
+R021,Vulcan Centaur,Vulcan,United States,ULA,2024,9999,2,2,0,27200,14400,0,62,5.4,546.0,2,0,110.0,Active,LH2/LOX + CH4/LOX,1,Atlas V successor; first flight Jan 2024
+R022,Titan IIIE,Titan,United States,USAF,1974,1977,7,7,0,15400,4500,0,48,3.0,632.0,3,0,120.0,Retired,N2O4/A-50 + LH2/LOX,0,"Launched Voyager 1 & 2, Viking Mars missions"
+R023,Falcon 1,Falcon,United States,SpaceX,2006,2009,5,2,3,670,0,0,22,1.7,38.0,2,0,7.0,Retired,RP-1/LOX,0,SpaceX's first rocket; 3 failures before success
