@@ -38,26 +38,9 @@ The repository keeps the **raw and cleaned datasets separately**, making the dat
 * Pandas
 * Plotly Express
 * Streamlit
-* HTML/CSS
-* Requests
+* CSS
+* Numpy
 
-## 📁 Project Structure
-
-```text
-Global-Space-Missions-Analysis/
-│
-├── app.py
-├── README.md
-├── requirements.txt
-├── .gitignore
-│
-├── Data/
-│   ├── 01 raw/
-│   └── 02 cleaned/
-│
-└── Styling/
-    └── premium_space.css
-```
 
 ## ▶️ Run Locally
 
