@@ -8,14 +8,14 @@ st.set_page_config(page_title="Space Dashboard", page_icon="*", layout="wide",in
 @st.cache_data
 def load_data():
     return (
-        pd.read_csv("D:/02_Training/Python DS 10-12/SPACE/Data/01 raw/01_space_launches_main.csv"), pd.read_csv("D:/02_Training/Python DS 10-12/SPACE/Data/01 raw/02_rockets_database.csv"),
-        pd.read_csv("D:/02_Training/Python DS 10-12/SPACE/Data/01 raw/03_ai_in_space.csv"), pd.read_csv("D:/02_Training/Python DS 10-12/SPACE/Data/01 raw/04_space_economy.csv"),
-        pd.read_csv("D:/02_Training/Python DS 10-12/SPACE/Data/02 cleaned/cleaned_spacemissions1.csv"), pd.read_csv("D:/02_Training/Python DS 10-12/SPACE/Data/02 cleaned/cleaned_rocketdatabase2.csv"),
-        pd.read_csv("D:/02_Training/Python DS 10-12/SPACE/Data/02 cleaned/cleaned_ai3.csv"), pd.read_csv("D:/02_Training/Python DS 10-12/SPACE/Data/02 cleaned/cleaned_space_economy4.csv"),
+        pd.read_csv("01_space_launches_main.csv"), pd.read_csv("02_rockets_database.csv"),
+        pd.read_csv("03_ai_in_space.csv"), pd.read_csv("04_space_economy.csv"),
+        pd.read_csv("cleaned_spacemissions1.csv"), pd.read_csv("cleaned_rocketdatabase2.csv"),
+        pd.read_csv("cleaned_ai3.csv"), pd.read_csv("cleaned_space_economy4.csv"),
     )
 
 df1, df2, df3, df4, df, rockets, ai1, economy = load_data()
-css = Path("D:/02_Training/Python DS 10-12/SPACE/Styling/premium_space.css").read_text(encoding="utf-8")
+css = Path("premium_space.css").read_text(encoding="utf-8")
 st.markdown(f"<style>{css}</style>", unsafe_allow_html=True)
 st.markdown('''<div class="space-decor" aria-hidden="true"><svg class="satellite" viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="45" y="26" width="30" height="28" rx="4" stroke="currentColor" stroke-width="3"/><path d="M45 32H8v16h37M75 32h37v16H75M55 26V14h10v12M60 54v12" stroke="currentColor" stroke-width="3"/><circle cx="60" cy="40" r="5" fill="currentColor"/></svg><svg class="astronaut" viewBox="0 0 80 100" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="40" cy="22" r="16" stroke="currentColor" stroke-width="3"/><path d="M25 39c-3 20-2 39 4 54m26-54c3 20 2 39-4 54M25 48 8 65m47-17 17 17M33 93l-9 5m23-5 9 5" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg><svg class="edge-rocket" viewBox="0 0 50 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M25 5C7 27 9 55 9 64h32c0-9 2-37-16-59Z" stroke="currentColor" stroke-width="3"/><path d="M9 63 3 80l14-8m24-9 6 17-14-8M20 64l5 28 5-28" stroke="currentColor" stroke-width="3"/></svg><span class="moon"></span><span class="radar"></span><span class="meteor"></span></div><span class="hologram" aria-hidden]="true"></span>''', unsafe_allow_html=True)
 
