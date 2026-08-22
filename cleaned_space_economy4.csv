@@ -1,0 +1,15 @@
+Year,Global_Space_Economy_USD,Commercial Share %,Government Share %,Satellite_Services_USD,Launch_Services_USD,Satellite_Manufacturing_USD,Ground_Equipment_USD,Orbital_Launches,Satellites_Deployed,Private_Investment_USD,VC_Deals,Major_Operators,Notes,Economy_Growth_Rate,Investment_per_Launch,Commercial_Dominance
+2000,130,55,45,77,2.5,18,32,85,50,0.3,5,"NASA,ESA,Roscosmos,JAXA",Pre-SpaceX era; govt dominated,,0.0,Balanced
+2005,177,56,44,97,3.5,28,48,55,65,0.5,8,"NASA,ESA,Roscosmos,Boeing,Lockheed",Shuttle era; cost >$500M/launch,36.15,0.01,Balanced
+2010,276,59,41,157,4.8,48,66,74,80,1.2,21,"NASA,SpaceX,ULA,Roscosmos",SpaceX Falcon 9 first launch; New Space begins,55.93,0.02,Balanced
+2012,304,61,39,189,5.4,51,59,78,95,2.1,31,"SpaceX,ULA,Roscosmos,NASA",SpaceX Dragon reaches ISS,10.14,0.03,Commercial Dominated
+2015,335,62,38,200,5.8,55,74,86,150,3.9,55,"SpaceX,ULA,Roscosmos,Arianespace",Falcon 9 first landing; reuse era begins,10.2,0.05,Commercial Dominated
+2016,339,63,37,204,5.5,57,72,85,200,4.2,61,"SpaceX,ULA,Roscosmos,Arianespace",OneWeb founded; small sat boom,1.19,0.05,Commercial Dominated
+2017,348,64,36,208,5.7,58,76,90,320,5.8,78,"SpaceX,ULA,Roscosmos,CASC",SpaceX reflown booster first time,2.65,0.06,Commercial Dominated
+2018,360,65,35,216,6.0,59,79,114,380,8.9,98,"SpaceX,CASC,ULA,Arianespace",China overtakes Russia in launches; SpaceX 21 launches,3.45,0.08,Commercial Dominated
+2019,366,66,34,218,6.6,59,83,102,600,7.4,89,"SpaceX,CASC,Roscosmos",Starlink begins; 60-sat launches change paradigm,1.67,0.07,Commercial Dominated
+2020,371,68,32,222,6.2,60,83,114,1200,8.7,103,"SpaceX,CASC,Roscosmos,ULA",COVID year; SpaceX crewed flight; 1200 new sats,1.37,0.08,Commercial Dominated
+2021,386,70,30,233,6.8,61,85,146,1900,17.1,143,"SpaceX,CASC,Roscosmos,RocketLab","Record launches; Bezos, Branson suborbital; Ingenuity flies",4.04,0.12,Commercial Dominated
+2022,424,72,28,262,7.6,65,89,186,2500,20.5,167,"SpaceX,CASC,Roscosmos,RocketLab",SpaceX 61 launches; JWST sees first light; DART hits asteroid,9.84,0.11,Commercial Dominated
+2023,546,74,26,340,8.8,72,125,212,2877,16.8,155,"SpaceX,CASC,Roscosmos,RocketLab,Isro",SpaceX 98 launches; Starship test flights; India Moon south pole,28.77,0.08,Commercial Dominated
+2024,630,76,24,390,10.2,81,149,261,3500,14.5,148,"SpaceX,CASC,Roscosmos,BlueOrigin,RocketLab",SpaceX 134 launches; Starship catches booster; Europa Clipper,15.38,0.06,Commercial Dominated

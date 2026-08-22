@@ -1,0 +1,24 @@
+Rocket_ID,Rocket_Name,Rocket_Family,Country,Operator,First_Flight,Last_Flight,Total_Launches,successes,failures,Payload_Moon_kg,Height_m,Diameter_m,Mass_tons,stages,reusable,Launch_Cost_USD_M,status,propellant,AI_Guidance,notes,Success_Rate,Failure_Rate
+R001,Saturn V,Saturn,United States,NASA,1967,1973,13,13,0,50000,111,10.1,2970.0,3,0,185.0,Retired,RP-1/LOX + LH2/LOX,0,Most powerful rocket ever flown; Apollo missions,100.0,0.0
+R002,Falcon 9 Block 5,Falcon,United States,SpaceX,2018,9999,280,277,2,0,70,3.7,549.0,2,1,67.0,Active,RP-1/LOX,1,Most launched orbital rocket; booster reused 20+ times,98.93,0.71
+R003,Falcon Heavy,Falcon,United States,SpaceX,2018,9999,11,10,1,16800,70,12.2,1421.0,2,1,97.0,Active,RP-1/LOX,1,Current most powerful operational rocket; side booster reuse,90.91,9.09
+R004,Starship (IFT),Starship,United States,SpaceX,2023,9999,6,3,3,100000,121,9.0,5000.0,2,1,10.0,In Development,CH4/LOX,1,Fully reusable; catch by chopstick arms; target $10M/launch,50.0,50.0
+R005,Atlas V,Atlas,United States,ULA,2002,2024,99,99,0,0,62,3.8,334.0,2,0,170.0,Retiring,RP-1/LOX + LH2/LOX,0,100% success rate; no failures in 99 launches,100.0,0.0
+R006,Delta IV Heavy,Delta,United States,ULA,2004,2024,16,15,1,0,72,5.0,733.0,3,0,400.0,Retired,LH2/LOX,0,Most expensive US rocket; used for NRO payloads,93.75,6.25
+R007,Space Shuttle,STS,United States,NASA,1981,2011,135,133,2,0,56,8.7,2030.0,1,1,500.0,Retired,LH2/LOX + HTPB,0,"Challenger 1986, Columbia 2003 disasters",98.52,1.48
+R008,New Glenn,New Glenn,United States,Blue Origin,2025,9999,3,2,1,0,98,7.0,1000.0,2,1,60.0,Active,LH2/LOX + LNG/LOX,1,First launch Jan 2025; reusable first stage,66.67,33.33
+R009,SLS Block 1,SLS,United States,NASA,2022,9999,1,1,0,27000,98,8.4,2608.0,2,0,4100.0,Active,LH2/LOX + HTPB,1,Artemis rocket; most expensive per launch ever,100.0,0.0
+R010,Soyuz-2.1a,Soyuz,Russia,Roscosmos,2004,9999,95,93,2,0,46,2.95,311.0,3,0,35.0,Active,RP-1/LOX,0,Workhorse of Russian fleet; ISS crew transport,97.89,2.11
+R011,Proton-M,Proton,Russia,Roscosmos,2001,9999,105,97,8,0,58,7.4,705.0,3,0,65.0,Active,N2O4/UDMH,0,Heavy lift; uses toxic hypergolic fuels,92.38,7.62
+R012,Long March 5,Long March,China,CASC,2016,9999,10,9,1,8200,57,5.0,869.0,2,0,90.0,Active,LH2/LOX + RP-1/LOX,1,China's heavy lifter; Tianwen-1 Mars mission,90.0,10.0
+R013,Long March 2F,Long March,China,CASC,1992,9999,20,20,0,0,62,3.35,480.0,2,0,70.0,Active,N2O4/UDMH,0,Only Chinese crewed launch vehicle; Shenzhou missions,100.0,0.0
+R014,Ariane 5 ECA,Ariane,Europe,Arianespace,2002,2023,82,81,1,0,53,5.4,780.0,2,0,185.0,Retired,LH2/LOX + HTPB,0,Launched JWST; retired 2023 after 82 flights,98.78,1.22
+R015,Ariane 6,Ariane,Europe,Arianespace,2024,9999,3,2,1,0,63,5.4,860.0,2,0,115.0,Active,LH2/LOX + HTPB,1,Ariane 5 successor; first flight July 2024,66.67,33.33
+R016,PSLV-XL,PSLV,India,ISRO,2008,9999,26,25,1,0,44,2.8,320.0,4,0,15.0,Active,HTPB + N2O4/UDMH + LH2/LOX,0,India's most reliable rocket; Chandrayaan missions,96.15,3.85
+R017,LVM3 M,GSLV MkIII,India,ISRO,2017,9999,7,7,0,0,43,4.0,640.0,3,0,35.0,Active,HTPB + N2O4/UDMH + LH2/LOX,1,Chandrayaan-3 launch vehicle; 100% success,100.0,0.0
+R018,H-IIA,H-II,Japan,JAXA/MHI,2001,2024,48,47,1,0,53,4.0,285.0,2,0,90.0,Retired,LH2/LOX + HTPB,0,48 launches; retired after SLIM mission 2024,97.92,2.08
+R019,H3,H-III,Japan,JAXA/MHI,2024,9999,2,2,0,0,63,5.2,574.0,2,0,50.0,Active,LH2/LOX + HTPB,1,H-IIA successor; first success March 2024,100.0,0.0
+R020,Electron,Electron,New Zealand,Rocket Lab,2017,9999,52,48,4,0,18,1.2,12.5,2,1,7.5,Active,RP-1/LOX,1,Small sat specialist; partially reusable (1st stage helicopter catch),92.31,7.69
+R021,Vulcan Centaur,Vulcan,United States,ULA,2024,9999,2,2,0,0,62,5.4,546.0,2,0,110.0,Active,LH2/LOX + CH4/LOX,1,Atlas V successor; first flight Jan 2024,100.0,0.0
+R022,Titan IIIE,Titan,United States,USAF,1974,1977,7,7,0,0,48,3.0,632.0,3,0,120.0,Retired,N2O4/A-50 + LH2/LOX,0,"Launched Voyager 1 & 2, Viking Mars missions",100.0,0.0
+R023,Falcon 1,Falcon,United States,SpaceX,2006,2009,5,2,3,0,22,1.7,38.0,2,0,7.0,Retired,RP-1/LOX,0,SpaceX's first rocket; 3 failures before success,40.0,60.0
