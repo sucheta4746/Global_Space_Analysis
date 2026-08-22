@@ -6,7 +6,7 @@ Space exploration is not just about rockets and launches. Behind every mission a
 
 **Global Space Missions Analysis** turns that journey into an interactive data story — exploring how space exploration has changed and where it could be heading next.
 
-## 🌌 What I Explored
+## 🌌 What You will Explore
 
 ### 🌍 Space Missions
 
